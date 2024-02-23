@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.three{
+    position: fixed;
+}
+.one{
+    width:10%;
+}
+.eight{
+    position: absolute;
+    top: 0;
+}
+header{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aliceblue;
+    height: auto;
+}
+.fourtyfive p{
+    font-family: cursive;
+}
+.two{
+    display: flex;
+    /* width: 100%; */
+    justify-content: center;
+}
+ul li{
+    list-style-type: none;
+    margin-left: 25px;
+}
+.four{
+    margin-top: 19%;
+    margin-left: 10%;
+}
+.five{
+    margin-top:150px;
+    display: flex;
+    justify-content:space-evenly;
+}
+.six{
+    display: flex;
+    justify-content: space-around;
+}
+.seven{
+    width:100vW;
+    background-color: aliceblue;
+}
+.nine{
+    position: fixed;
+    width: 100%;
+}
+.ten{
+    text-align: center;
+    background-image: url(images/images/home-filler.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: auto;
+}
+.eleven{
+    display: flex;
+    margin-right: 20px;
+    justify-content: space-around;
+    width: 5%;
+}
+header .two li a{
+    text-decoration: none;
+}
+header .two li a:hover{
+    border-bottom: 2px solid rgb(250, 205, 59);
+}
+.twelve{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 45px;
+}
+.twelve p{
+    font-family: cursive;
+}
+.fifteen{
+    padding: 200px;
+}
+.fifteen .sixteen a{
+    text-decoration: none;
+}
+.seventeen{
+    text-align: center;
+    background-color: aliceblue;
+}
+.eighteen{
+    width: 250px;
+}
+.nineteen{
+    width: 250px;
+}
+.twenty, .twentyone, .twentytwo, .twentythree{
+    width: 250px;
+}
+.twentyfour{
+    margin-left: 5%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: aliceblue;
+    margin-top: 0;
+}
+.twentysix #carouselExampleControls .carousel-inner .carousel-item img{
+    margin-left: 500px;
+}
+.twentyeight{
+    margin-top: 20px;
+    font-family: cursive;
+    background-color: aliceblue;
+}
+.twentynine{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    height: 250px;
+    padding: 70px;
+}
+.thirty{
+    background-color: rgb(49, 49, 49);
+}
+.thirtyone{
+    display: flex;
+    justify-content:space-evenly;
+    margin-left: 42%;
+    width: 12%;
+}
+.thirtytwo{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.thirteen{
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (min-width:992px) {
+    
+}
+@media screen and (min-width:786px) and (max-width:991px) {
+    .fourtyone{
+        font-size: 10px;
+    }
+    .six{
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .thirteen{
+        height: auto;
+        justify-content: center;
+    }
+    .twentyfour{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    header{
+        display: block;
+    }
+    .one,.eleven{
+        margin-left: 50%;
+    }
+}
+@media screen and (min-width:576px) and (max-width:785px){
+    header{
+        display: block;
+    }
+    .twentyfour{
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        align-items: center;
+        margin-left: 25%;
+    }
+    .one,.eleven{
+        margin-left: 50%;
+    }
+    .fourtyone{
+        font-size: 10px;
+    }
+    .fourty{
+        font-size: 5px;
+    }
+    .five{
+        display: block;
+    }
+    .fifteen{
+        padding: 100px 0px;
+    }
+}
+@media screen and (max-width:575px) {
+    header{
+        display: block;
+    }
+    .one{
+        width: 100%;
+        margin-left: 50%;
+    }
+    .eleven{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .two{
+        width: 100%;
+        margin-right: 50%;
+    }
+    .four{
+        margin-left: 40%;
+    }
+    .five{
+        display: block;
+    }
+    .thirtytwo{
+        display: block;
+        margin-left: 25%;
+    }
+    .thirty{
+        padding: 0;
+        margin-left: 0;
+        width: 100%;
+    }
+    .fourtytwo{
+        width: 100%;
+    }
+    .fourtytwo p{
+        width: 100%;
+        font-size: smaller;
+    }
+    .thirtyone{
+        width: 100%;
+        margin-left: 0;
+        justify-content:center;
+    }
+    .eight{
+        width: 100%;
+    }
+    .fifteen{
+        padding: 100px 0px;
+    }
+    .twentynine{
+        display: block;
+        height: auto;
+        padding: 0;
+    }
+    .twentynine div{
+        display: block;
+    }
+    .thirty h3{
+        padding: 0;
+        width: 100%;
+        margin-left: 0;
+    }
+    .twentyfour{
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        align-items: center;
+        margin-left: 15%;
+    }
+}
